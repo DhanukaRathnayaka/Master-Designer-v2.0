@@ -171,6 +171,9 @@ html {
         border-radius: 15px;
         border: 0px solid#fff;
     }
+    .acontainer::before{
+        background-image: url('111.png');
+    }
     
 
     .a_h1 {
@@ -216,6 +219,9 @@ html {
         padding: 5px 0;
         font-size: 1.1em;
     }
+    .acontainer::before{
+        background-image: url('111.png');
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -241,5 +247,8 @@ html {
         height: 50px;
         padding: 12px 0;
         font-size: 1.2em;
+    }
+    .acontainer::before{
+        background-image: url('111.png');
     }
 }
