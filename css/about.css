@@ -107,9 +107,30 @@ html {
     z-index: 1;
     align-items: center;
 }
+.abt2-button {
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    /* Ensure the text is on top of the blurred background */
+    z-index: 1;
+    align-items: center;
+    background-color: #4551a0;
+}
 .a_h5{
     margin-top: 10px;
     align-items: center;
+}
+.a_h52{
+    color: whitesmoke;
+    margin-top: 10px;
+    align-items: center;
+    font-size: medium;
 }
 
 .abutton.delegate {
@@ -130,6 +151,9 @@ html {
 }
 .abt-button:hover {
     background-color: #4551a0; /* Color on hover */
+}
+.abt2-button:hover {
+    background-color: #141830; /* Color on hover */
 }
 
 /* Extra small devices (phones, 600px and down) */
