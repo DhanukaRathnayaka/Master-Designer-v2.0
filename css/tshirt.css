@@ -115,7 +115,14 @@
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 1em;
+    transition: background-color 0.3s, color 0.3s; /* Adds a smooth transition effect */
 }
+
+.order-now:hover {
+    background-color: #555; /* Change to a lighter shade of the background color */
+    color: #ddd; /* Change to a lighter shade of the text color */
+}
+
 
 /* Media Queries */
 @media (max-width: 768px) {
