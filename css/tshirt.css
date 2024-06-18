@@ -24,7 +24,7 @@
 }
 
 /* Header Styles */
-.thb{
+.thb {
     margin: 0;
     padding: 10px 0;
     font-weight: normal;
@@ -81,6 +81,7 @@
 .size-buttons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Center the buttons */
 }
 
 .size-buttons .size-btn {
@@ -108,8 +109,14 @@
 }
 
 /* Order Now Button */
+.order-now-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .order-now {
-    background-color: #333;
+    background-color: #504b9f;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -123,13 +130,16 @@
     color: #ddd; /* Change to a lighter shade of the text color */
 }
 
-
 /* Media Queries */
 @media (max-width: 768px) {
     .product-section {
         flex-direction: column;
     }
-    .thb{
+    .order-now:hover {
+        background-color: #555; /* Change to a lighter shade of the background color */
+        color: #ddd; /* Change to a lighter shade of the text color */
+    }
+    .thb {
         margin-top: 15px;
         font-size: 30px;
         line-height: 35px;
@@ -146,7 +156,6 @@
         height: auto;
     }
     .tshirt-container {
-        
     }
     .product-image img {
         background-color: #ffffff19;
@@ -158,6 +167,10 @@
     .container {
         padding: 10px;
     }
+    .order-now:hover {
+        background-color: #555; /* Change to a lighter shade of the background color */
+        color: #ddd; /* Change to a lighter shade of the text color */
+    }
 
     .product-details h3 {
         font-size: 1.2em;
@@ -167,13 +180,27 @@
         font-size: 1.5em;
     }
 
+    .size-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center the buttons */
+    }
+
     .size-buttons .size-btn {
         padding: 8px 16px;
         margin: 3px;
     }
-    .tshirt-container
-    {
+    .tshirt-container {
         box-shadow: 0 0 15px #000;
+    }
+
+    .order-now-container {
+        flex-direction: column;
+    }
+
+    .order-now {
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
 
@@ -185,10 +212,15 @@
     .product-details h3 {
         font-size: 1.1em;
     }
-   
 
     .price {
         font-size: 1.3em;
+    }
+
+    .size-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center the buttons */
     }
 
     .size-buttons .size-btn {
@@ -196,8 +228,14 @@
         margin: 2px;
     }
 
+    .order-now-container {
+        flex-direction: column;
+    }
+
     .order-now {
         padding: 8px 16px;
         font-size: 0.9em;
+        width: 100%;
+        margin-bottom: 10px;
     }
 }
