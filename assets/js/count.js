@@ -36,8 +36,7 @@ function initializeClock(id, endtime) {
   updateClock();
   var timeinterval = setInterval(updateClock, 1000);
 }
-var deadline = 'June 22 2024 24:00:00';
-// var deadline = new Date(Date.parse(new Date()) + 100 * 24 * 60 * 60 * 1000); // sets 15 day countdown
-initializeClock("clockdiv", deadline);
 
-getTimeRemaining(deadline).minutes;
+// Use a more consistent date format
+var deadline = new Date(Date.UTC(2024, 5, 23, 0, 0, 0)); // June is month 5 (0-indexed)
+initializeClock("clockdiv", deadline);
