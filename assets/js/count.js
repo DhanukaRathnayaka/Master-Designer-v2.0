@@ -38,5 +38,5 @@ function initializeClock(id, endtime) {
 }
 
 // Use a more consistent date format
-var deadline = new Date(Date.UTC(2024, 5, 25, 0, 0, 0)); // June is month 5 (0-indexed)
+var deadline = new Date(Date.UTC(2024, 5, 25, 23, 59, 0)); // June is month 5 (0-indexed)
 initializeClock("clockdiv", deadline);
