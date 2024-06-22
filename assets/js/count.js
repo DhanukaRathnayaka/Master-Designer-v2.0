@@ -23,7 +23,7 @@ function initializeClock(id, endtime) {
   function updateClock() {
     var t = getTimeRemaining(endtime);
 
-    daysSpan.innerHTML = ("0" + t.days).slice(-2);
+    daysSpan.innerHTML = t.days;
     hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
     minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
     secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
@@ -37,6 +37,6 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-// Use a more consistent date format
-var deadline = new Date(Date.UTC(2024, 5, 25, 23, 59, 59)); // June is month 5 (0-indexed)
+// Set the deadline to June 25th, 2024, 23:59:59 local time
+var deadline = new Date(2024, 5, 25, 23, 59, 59); // June is month 5 (0-indexed), time set in local timezone
 initializeClock("clockdiv", deadline);
