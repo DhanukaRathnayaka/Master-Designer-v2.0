@@ -38,5 +38,5 @@ function initializeClock(id, endtime) {
 }
 
 // Set the deadline to June 25th, 2024, 23:59:59 local time
-var deadline = new Date(2024, 5, 25, 23, 59, 59); // June is month 5 (0-indexed), time set in local timezone
+var deadline = new Date(2024, 5, 28, 20, 00, 00); // June is month 5 (0-indexed), time set in local timezone
 initializeClock("clockdiv", deadline);
