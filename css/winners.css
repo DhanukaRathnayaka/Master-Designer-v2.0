@@ -1,0 +1,75 @@
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 60rem;
+    margin: auto;
+  }
+  
+  .lol {
+    font-family: system-ui, sans-serif;
+    color: hsl(0 0% 95%);
+    
+    width: fit-content;
+    max-width: 28rem;
+    margin: 0;
+    padding: 2rem 0;
+    
+    display: grid;
+    gap: 3rem;
+    
+    list-style: none;
+    counter-reset: liCount;
+    
+  }
+  
+  .lol > .lolli {
+    --border-radius: 1rem;
+    --padding: 0.5rem;
+    --number-size: 3rem;
+    --indent: 3.5rem;
+    
+    display: grid;
+    --text-column: minmax(calc(var(--number-size) * 2), 1fr);
+    grid-template-columns: var(--number-size) var(--text-column);
+    gap: 0.5rem;
+    grid-auto-flow: dense;
+    align-items: center;
+    box-shadow: 2px 2px 5px hsl(0 0% 0% / .5);
+    
+    margin-inline: var(--indent) 0rem;
+    padding-block: var(--padding);
+    padding-inline: var(--padding) calc(var(--padding) * 2);
+    border-radius: var(--border-radius);
+    background-color: #282626; /* Blue */
+    counter-increment: liCount;
+    
+  }
+  
+  .lol > .lolli:nth-child(even) {
+    background-color: 1ea5de; /* Dark Blue */
+  }
+  
+  .lol > .lolli::before, ol > .lolli::after { 
+    content: "";
+    grid-area: 1/1;
+    background-color: var(--accent-color);
+    background-image: linear-gradient(hsla(199, 85%, 61%, 0.315) 0 0);
+  }
+  .lol > .lolli::after {
+    --scale: 2;
+    aspect-ratio: 1/1;
+    border-radius: calc(var(--border-radius) / var(--scale));
+    scale: var(--scale);
+    rotate: 45deg;
+    z-index: -1;
+  }
+  
+  .lol > .lolli:nth-child(even) {
+    --multi: -1;
+    margin-inline: 0rem var(--indent);
+    padding-inline:  calc(var(--padding) * 2) var(--padding);
+    grid-template-columns: var(--text-column) var(--number-size);
+  }
+  
+  .lol > .lolli:nth-child(even)::before, .lol > .lolli:nth-child(even)::after { grid-area: 1/2 }
+  
