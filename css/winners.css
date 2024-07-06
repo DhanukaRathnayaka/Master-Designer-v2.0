@@ -1,0 +1,65 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 60rem;
+  margin: auto;
+  gap: 2rem; /* Added gap between boxes */
+}
+
+.lol {
+  font-family: system-ui, sans-serif;
+  font-size: 15px;
+  color: hsl(0 0% 95%);
+  max-width: 28rem;
+  margin: 0;
+  padding: 2rem 0;
+  display: grid;
+  gap: 3rem;
+  list-style: none;
+  counter-reset: liCount;
+}
+
+.lol > .lolli {
+  --border-radius: 1rem;
+  --padding: 1rem; /* Increased padding for better appearance */
+  --number-size: 3rem;
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  justify-items: center; /* Center align text horizontally */
+  align-items: center; /* Center align text vertically */
+  box-shadow: 2px 2px 5px hsl(0 0% 0% / .5);
+  padding-block: var(--padding);
+  padding-inline: var(--padding);
+  border-radius: var(--border-radius);
+  background-color: #282626;
+  counter-increment: liCount;
+  width: 100%; /* Ensures all boxes are of equal width */
+  text-align: center; /* Center align text */
+  border: solid 2px;
+}
+
+.lol > .lolli:nth-child(even) {
+  background-color: #282626; /* Corrected background color */
+}
+
+.lol > .lolli::before,
+.lol > .lolli::after { 
+  content: "";
+  grid-area: 1/1;
+  background-color: var(--accent-color);
+  background-image: linear-gradient(hsla(199, 85%, 61%, 0.315) 0 0);
+}
+
+.lol > .lolli::after {
+  --scale: 2;
+  aspect-ratio: 1/1;
+  border-radius: calc(var(--border-radius) / var(--scale));
+  scale: var(--scale);
+  rotate: 45deg;
+  z-index: -1;
+}
+
+.strong{
+  font-size: 20px;
+}
