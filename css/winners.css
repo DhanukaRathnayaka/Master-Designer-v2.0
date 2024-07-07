@@ -36,7 +36,7 @@
   counter-increment: liCount;
   width: 100%; /* Ensures all boxes are of equal width */
   text-align: center; /* Center align text */
-  border: solid 2px;
+  border: #1ea5de solid 1px;
 }
 
 .lol > .lolli:nth-child(even) {
