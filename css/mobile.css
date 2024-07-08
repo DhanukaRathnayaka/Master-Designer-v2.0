@@ -25,6 +25,16 @@
     /* Added white border */
 }
 
+.step_pr {
+    background-color: #514b9f2f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    border: 2px solid #1ea5de;
+    /* Added white border */
+}
+
 .content_p {
     padding: 20px;
 }
@@ -68,6 +78,10 @@
         width: 90%;
     }
 
+    .step_pr {
+        width: 90%;
+    }
+
     .content_p {
         padding: 10px;
     }
@@ -100,6 +114,11 @@
         margin: 10px;
     }
 
+    .step_pr {
+        width: 45%;
+        margin: 10px;
+    }
+
     .content_p {
         padding: 15px;
     }
@@ -126,6 +145,10 @@
     }
 
     .step_p {
+        width: 300px;
+    }
+
+    .step_pr {
         width: 300px;
     }
 
