@@ -106,7 +106,7 @@ document.addEventListener("DOMContentLoaded", () => {
       author: "Paboda Sandeepani",
     }, 
 	      {
-      src: "assets/selection/imgio1.jpg",
+      src: "assets/selection/imgio1.png",
       title: "Task",
       author: "Pasindu Dilhara",
     },
@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
       author: "Lalitha Dananjaya",
     }, 
 	    {
-      src: "assets/selection/imgi10.jng",
+      src: "assets/selection/imgi10.jpg",
       title: "Task",
       author: "Pathum Deshan",
     },
@@ -234,11 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Task",
       author: "Thusheera Dimal",
     }, 
-   {
-      src: "assets/selection/imgi027.png",
-      title: "Task",
-      author: "Thusheera Dimal",
-    }, 
+  
 
 
     
