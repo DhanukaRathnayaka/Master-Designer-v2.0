@@ -5,56 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Sample",
       author: "Sample",
     },
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },{
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },{
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },{
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },{
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },{
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
-    },
+    
 
     // Add more images as needed
   ];
