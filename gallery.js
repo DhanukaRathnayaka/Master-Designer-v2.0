@@ -16,17 +16,17 @@ document.addEventListener("DOMContentLoaded", () => {
       author: "Heshan De Silva",
     }, 
 {
-      src: "assets/selection/img04.jpg",
+      src: "assets/selection/img04.png",
       title: "Task 01",
       author: "Hansana Eranga",
     },
     {
-      src: "assets/selection/img05.jpg",
+      src: "assets/selection/img05.png",
       title: "Task 02",
       author: "Hansana Eranga",
     },
     {
-      src: "assets/selection/img06.jpg",
+      src: "assets/selection/img06.png",
       title: "Task 03",
       author: "Hansana Eranga",
     },
