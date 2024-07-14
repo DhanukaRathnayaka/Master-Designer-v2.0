@@ -2,13 +2,31 @@ document.addEventListener("DOMContentLoaded", () => {
   const galleryData = [
     {
       src: "assets/selection/img1.jpg",
-      title: "The final battle",
-      author: "Kulith Renuja",
+      title: "Sample",
+      author: "Sample",
     },
     {
       src: "assets/selection/img2.jpg",
-      title: "The final battle",
-      author: "Kulith Renuja",
+      title: "Sample",
+      author: "Sample",
+    },{
+      src: "assets/selection/img1.jpg",
+      title: "Sample",
+      author: "Sample",
+    },
+    {
+      src: "assets/selection/img2.jpg",
+      title: "Sample",
+      author: "Sample",
+    },{
+      src: "assets/selection/img1.jpg",
+      title: "Sample",
+      author: "Sample",
+    },
+    {
+      src: "assets/selection/img2.jpg",
+      title: "Sample",
+      author: "Sample",
     },
 
     // Add more images as needed
