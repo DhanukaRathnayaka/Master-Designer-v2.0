@@ -1,10 +1,111 @@
 document.addEventListener("DOMContentLoaded", () => {
   const galleryData = [
-    {
-      src: "assets/selection/Teamaqua.jpg",
-      title: "Sample",
-      author: "Sample",
+        {
+      src: "assets/selection/img01.jpg",
+      title: "Task 01",
+      author: "Heshan De Silva",
     },
+    {
+      src: "assets/selection/img02.jpg",
+      title: "Task 02",
+      author: "Heshan De Silva",
+    },
+    {
+      src: "assets/selection/img03.jpg",
+      title: "Task 03",
+      author: "Heshan De Silva",
+    }, 
+{
+      src: "assets/selection/img04.jpg",
+      title: "Task 01",
+      author: "Hansana Eranga",
+    },
+    {
+      src: "assets/selection/img05.jpg",
+      title: "Task 02",
+      author: "Hansana Eranga",
+    },
+    {
+      src: "assets/selection/img06.jpg",
+      title: "Task 03",
+      author: "Hansana Eranga",
+    },
+        {
+      src: "assets/selection/img07.jpg",
+      title: "Task 01",
+      author: "Ushan Navamina",
+    },
+    {
+      src: "assets/selection/img08.jpg",
+      title: "Task 02",
+      author: "Ushan Navamina",
+    },
+	{
+      src: "assets/selection/img09.jpg",
+      title: "Task 03",
+      author: "Ushan Navamina",
+    },
+       {
+      src: "assets/selection/img010.jpg",
+      title: "Task 01",
+      author: "Tharindu Munasinghe",
+    },
+    {
+      src: "assets/selection/img011.jpg",
+      title: "Task 02",
+      author: "Tharindu Munasinghe",
+    },
+	{
+      src: "assets/selection/img012.jpg",
+      title: "Task 03",
+      author: "Tharindu Munasinghe",
+    }, 
+        {
+      src: "assets/selection/img013.jpg",
+      title: "Task 01",
+      author: "MR. SATHURSHAN B.",
+    },
+    {
+      src: "assets/selection/img014.jpg",
+      title: "Task 02",
+      author: "MR. SATHURSHAN B.",
+    },
+	{
+      src: "assets/selection/img015.jpg",
+      title: "Task 03",
+      author: "MR. SATHURSHAN B.",
+    }, 
+       {
+      src: "assets/selection/img016.png",
+      title: "Task 01",
+      author: "Nipuni Kulathunga",
+    },
+    {
+      src: "assets/selection/img017.png",
+      title: "Task 02",
+      author: "Nipuni Kulathunga",
+    },
+	{
+      src: "assets/selection/img018.png",
+      title: "Task 03",
+      author: "Nipuni Kulathunga",
+    }, 
+        {
+      src: "assets/selection/img019.jpg",
+      title: "Task 01",
+      author: "Paboda Sandeepani",
+    },
+    {
+      src: "assets/selection/img020.jpg",
+      title: "Task 02",
+      author: "Paboda Sandeepani",
+    },
+	{
+      src: "assets/selection/img021.jpg",
+      title: "Task 03",
+      author: "Paboda Sandeepani",
+    }, 
+
     
 
     // Add more images as needed
