@@ -105,6 +105,141 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Task 03",
       author: "Paboda Sandeepani",
     }, 
+	      {
+      src: "assets/selection/imgio1.jpg",
+      title: "Task",
+      author: "Pasindu Dilhara",
+    },
+    {
+      src: "assets/selection/imgi02.jpg",
+      title: "Task",
+      author: "Paramee Hettiarachchi",
+    },
+	{
+      src: "assets/selection/imgi03.jpg",
+      title: "Task",
+      author: "Paramee Hettiarachchi",
+    },
+	      {
+      src: "assets/selection/imgi04.jpg",
+      title: "Task",
+      author: "Dushyantha",
+    },
+    {
+      src: "assets/selection/imgi05.jpg",
+      title: "Task",
+      author: "Malshan Ranathunga",
+    },
+	{
+      src: "assets/selection/imgi06.jpg",
+      title: "Task",
+      author: "Radishan Enuka",
+    }, 
+    {
+      src: "assets/selection/imgi07.jpg",
+      title: "Task",
+      author: "Nadeesha Rathnayake",
+    },
+    {
+      src: "assets/selection/imgi08.jpg",
+      title: "Task",
+      author: "CHETHIYA SENARATHNA",
+    },
+	{
+      src: "assets/selection/imgi09.jpg",
+      title: "Task",
+      author: "Lalitha Dananjaya",
+    }, 
+	    {
+      src: "assets/selection/imgi10.jng",
+      title: "Task",
+      author: "Pathum Deshan",
+    },
+    {
+      src: "assets/selection/imgi011.jpg",
+      title: "Task",
+      author: "Chandu balasooriya",
+    },
+	{
+      src: "assets/selection/imgi012.jpg",
+      title: "Task",
+      author: "Chathura kodikara",
+    },
+	  {
+      src: "assets/selection/imgi013.jpg",
+      title: "Task",
+      author: "Point Mark",
+    },
+    {
+      src: "assets/selection/imgi014.png",
+      title: "Task",
+      author: "Thanuka Vishal",
+    },
+	{
+      src: "assets/selection/imgi015.jpg",
+      title: "Task",
+      author: "Yasi Arts",
+    }, 
+   {
+      src: "assets/selection/imgi016.jpg",
+      title: "Task",
+      author: "CHAMIKA SATHSARA",
+    },
+	{
+      src: "assets/selection/imgi017.jpg",
+      title: "Task",
+      author: "Anuradha Dilshan",
+    }, 
+   {
+      src: "assets/selection/imgi018.png",
+      title: "Task",
+      author: "Pamith Premarathna",
+    },
+    {
+      src: "assets/selection/imgi019.png",
+      title: "Task",
+      author: "sevindu Thilshan",
+    },
+	{
+      src: "assets/selection/imgi020.png",
+      title: "Task",
+      author: "Ravindu Priyan",
+    }, 
+   {
+      src: "assets/selection/imgi021.jpg",
+      title: "Task",
+      author: "chathura kodikara",
+    },
+	{
+      src: "assets/selection/imgi022.png",
+      title: "Task",
+      author: "Hasini Sarathchandra",
+    },{
+      src: "assets/selection/imgi023.png",
+      title: "Task",
+      author: "Rashmi Shehara",
+    },
+	      {
+      src: "assets/selection/imgi024.png",
+      title: "Task",
+      author: "Rasika Fernando",
+    },
+    {
+      src: "assets/selection/imgi025.png",
+      title: "Task",
+      author: "vogzero official",
+    },
+	{
+      src: "assets/selection/imgi026.png",
+      title: "Task",
+      author: "Thusheera Dimal",
+    }, 
+   {
+      src: "assets/selection/imgi027.png",
+      title: "Task",
+      author: "Thusheera Dimal",
+    }, 
+
 
     
 
