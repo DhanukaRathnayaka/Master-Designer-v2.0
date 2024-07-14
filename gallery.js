@@ -1,30 +1,57 @@
 document.addEventListener("DOMContentLoaded", () => {
   const galleryData = [
     {
-      src: "assets/selection/img1.jpg",
+      src: "assets/selection/Teamaqua.jpg",
       title: "Sample",
       author: "Sample",
     },
     {
-      src: "assets/selection/img2.jpg",
+      src: "assets/selection/Teamaqua.jpg",
       title: "Sample",
       author: "Sample",
     },{
-      src: "assets/selection/img1.jpg",
+      src: "assets/selection/Teamaqua.jpg",
       title: "Sample",
       author: "Sample",
     },
     {
-      src: "assets/selection/img2.jpg",
+      src: "assets/selection/Teamaqua.jpg",
       title: "Sample",
       author: "Sample",
     },{
-      src: "assets/selection/img1.jpg",
+      src: "assets/selection/Teamaqua.jpg",
       title: "Sample",
       author: "Sample",
     },
     {
-      src: "assets/selection/img2.jpg",
+      src: "assets/selection/Teamaqua.jpg",
+      title: "Sample",
+      author: "Sample",
+    },{
+      src: "assets/selection/Teamaqua.jpg",
+      title: "Sample",
+      author: "Sample",
+    },
+    {
+      src: "assets/selection/Teamaqua.jpg",
+      title: "Sample",
+      author: "Sample",
+    },{
+      src: "assets/selection/Teamaqua.jpg",
+      title: "Sample",
+      author: "Sample",
+    },
+    {
+      src: "assets/selection/Teamaqua.jpg",
+      title: "Sample",
+      author: "Sample",
+    },{
+      src: "assets/selection/Teamaqua.jpg",
+      title: "Sample",
+      author: "Sample",
+    },
+    {
+      src: "assets/selection/Teamaqua.jpg",
       title: "Sample",
       author: "Sample",
     },
