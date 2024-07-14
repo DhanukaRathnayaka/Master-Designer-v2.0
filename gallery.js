@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${item.src}" alt="${item.title}" class="gallery-image">
           <div class="gallery-caption">
             <h3>${item.title}</h3>
-            <p>@ ${item.author}</p>
+            <p> ${item.author}</p>
           </div>
         `;
       galleryItem.addEventListener("click", () =>
