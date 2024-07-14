@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GISLA Artwork Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <h1>MASTER DESIGNER GALLERY</h1>
+  <div class="gallery" id="gallery">
+    <!-- Gallery items will be inserted here by JavaScript -->
+  </div>
+  <div class="pagination" id="pagination">
+    <button id="prev" class="page-btn" disabled>Prev</button>
+    <span id="page-number">1</span>
+    <button id="next" class="page-btn">Next</button>
+  </div>
+
+  <div class="popup" id="popup">
+    <span class="close" id="close">&times;</span>
+    <img class="popup-content" id="popup-content">
+    <div class="popup-caption" id="popup-caption"></div>
+  </div>
+  
+    <script src="gallery.js"></script>
+  </body>
+</html>
