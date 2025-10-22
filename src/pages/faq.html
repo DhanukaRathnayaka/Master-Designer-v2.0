@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>document.getElementsByTagName("html")[0].className += " js";</script>
+	<link rel="stylesheet" href="css/faq.css">
+	<title>Masterdesignerfaq</title>
+</head>
+
+<body>
+	<header>
+		<img src="assets/images/logo.png" alt="logo" class="logo">
+		<h1 class="faqh1">FAQ SECTION</h1>
+	</header>
+	<section class="faq">
+		<ul class="categories">
+			<li><a class="selected" href="#basics">Individual Competitors</a></li>
+			<li><a href="#mobile">Team Competitors</a></li>
+		</ul> <!-- categories -->
+
+		<div class="faq-items">
+			<ul id="basics" class="faq-group">
+				<li class="faq-title">
+					<h2>Individual Competitors</h2>
+				</li>
+				<li>
+					<a class="trigger" href="#0">Is this an individual competition or a team competition? </a>
+					<div class="faq-content">
+						<p>You can register as team or individual
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">How many people can be on a team?</a>
+					<div class="faq-content">
+						<p>3 members in one team
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">What is this competition about?</a>
+					<div class="faq-content">
+						<p>This is the graphic designing competition
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">Who can participate in Master Designer V2.0? </a>
+					<div class="faq-content">
+						<p>Anyone above the age of 16 who interest about designing
+
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+			</ul> <!-- Team Competitors -->
+
+			<ul id="mobile" class="faq-group">
+				<li class="faq-title">
+					<h2>Team Competitors</h2>
+				</li>
+				<li>
+					<a class="trigger" href="#0">How will I receive updates about the competition?</a>
+					<div class="faq-content">
+						<p>You can follow the Master Designer official website and social media.
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">Will I get a participation certificate?</a>
+					<div class="faq-content">
+						<p>Yes. all participants who have completed phase 1 will receive e-certificates as recognition
+							of their participation.
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">What will I receive if I win?</a>
+					<div class="faq-content">
+						<p>You can win awards and certificates.
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+			</ul> <!-- faq-group -->
+
+			<ul id="delivery" class="faq-group">
+				<li class="faq-title">
+					<h2>All</h2>
+				</li>
+				<li>
+					<a class="trigger" href="#0">What should I do if I'm having trouble registering? </a>
+					<div class="faq-content">
+						<p>You can contact an organizing committee member. You can find the contact through the website.
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">How can I register for Master Designer V2.0?</a>
+					<div class="faq-content">
+						<p>Through Master Designer V2.0 official website
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">Is this an online or in-person competition?</a>
+					<div class="faq-content">
+						<p> We have a online and physical competition
+
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">What is the age limit for participation?</a>
+					<div class="faq-content">
+						<p>16</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">Is this competition only for university students? </a>
+					<div class="faq-content">
+						<p>No</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">Who can participate in Master Designer V2.0? </a>
+					<div class="faq-content">
+						<p>Anyone above the age of 16 who interest about designing
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">Does Master Designer V2.0 require prior graphic designing skills to
+						join?</a>
+					<div class="faq-content">
+						<p>Yes</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">What is the process after I submit my registration?
+					</a>
+					<div class="faq-content">
+						<p>Better contact a oc memeber</p>
+					</div> <!-- faq-content -->
+				</li>
+
+				<li>
+					<a class="trigger" href="#0">What should I do if I'm having trouble registering?</a>
+					<div class="faq-content">
+						<p>You can contact an organizing committee member. You can find the contact through the website.
+						</p>
+					</div> <!-- faq-content -->
+				</li>
+			</ul> <!-- faq-group -->
+		</div> <!-- faq-items -->
+		<a href="#0" class="cd-close-panel">Close</a>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				jQuery(document).ready(function ($) {
+
+					var MqM = 768,
+						MqL = 1024;
+
+					var faqsSections = $('.faq-group'),
+						faqTrigger = $('.trigger'),
+						faqsContainer = $('.faq-items'),
+						faqsCategoriesContainer = $('.categories'),
+						faqsCategories = faqsCategoriesContainer.find('a'),
+						closeFaqsContainer = $('.cd-close-panel');
+
+					//select a faq section 
+					faqsCategories.on('click', function (event) {
+						event.preventDefault();
+						var selectedHref = $(this).attr('href'),
+							target = $(selectedHref);
+						if ($(window).width() < MqM) {
+							faqsContainer.scrollTop(0).addClass('slide-in').children('ul').removeClass('selected').end().children(selectedHref).addClass('selected');
+							closeFaqsContainer.addClass('move-left');
+							$('body').addClass('cd-overlay');
+						} else {
+							$('body,html').animate({ 'scrollTop': target.offset().top - 19 }, 200);
+						}
+					});
+
+					//close faq lateral panel - mobile only
+					$('body').bind('click touchstart', function (event) {
+						if ($(event.target).is('body.cd-overlay') || $(event.target).is('.cd-close-panel')) {
+							closePanel(event);
+						}
+					});
+					faqsContainer.on('swiperight', function (event) {
+						closePanel(event);
+					});
+
+
+					faqTrigger.on('click', function (event) {
+						event.preventDefault();
+						$(this).next('.faq-content').slideToggle(200).end().parent('li').toggleClass('content-visible');
+					});
+
+					$(window).on('scroll', function () {
+						if ($(window).width() > MqL) {
+							(!window.requestAnimationFrame) ? updateCategory() : window.requestAnimationFrame(updateCategory);
+						}
+					});
+
+					$(window).on('resize', function () {
+						if ($(window).width() <= MqL) {
+							faqsCategoriesContainer.removeClass('is-fixed').css({
+								'-moz-transform': 'translateY(0)',
+								'-webkit-transform': 'translateY(0)',
+								'-ms-transform': 'translateY(0)',
+								'-o-transform': 'translateY(0)',
+								'transform': 'translateY(0)',
+							});
+						}
+						if (faqsCategoriesContainer.hasClass('is-fixed')) {
+							faqsCategoriesContainer.css({
+								'left': faqsContainer.offset().left,
+							});
+						}
+					});
+
+					function closePanel(e) {
+						e.preventDefault();
+						faqsContainer.removeClass('slide-in').find('li').show();
+						closeFaqsContainer.removeClass('move-left');
+						$('body').removeClass('cd-overlay');
+					}
+
+					function updateCategory() {
+						updateCategoryPosition();
+						updateSelectedCategory();
+					}
+
+					function updateCategoryPosition() {
+						var top = $('.faq').offset().top,
+							height = jQuery('.faq').height() - jQuery('.categories').height(),
+							margin = 20;
+						if (top - margin <= $(window).scrollTop() && top - margin + height > $(window).scrollTop()) {
+							var leftValue = faqsCategoriesContainer.offset().left,
+								widthValue = faqsCategoriesContainer.width();
+							faqsCategoriesContainer.addClass('is-fixed').css({
+								'left': leftValue,
+								'top': margin,
+								'-moz-transform': 'translateZ(0)',
+								'-webkit-transform': 'translateZ(0)',
+								'-ms-transform': 'translateZ(0)',
+								'-o-transform': 'translateZ(0)',
+								'transform': 'translateZ(0)',
+							});
+						} else if (top - margin + height <= $(window).scrollTop()) {
+							var delta = top - margin + height - $(window).scrollTop();
+							faqsCategoriesContainer.css({
+								'-moz-transform': 'translateZ(0) translateY(' + delta + 'px)',
+								'-webkit-transform': 'translateZ(0) translateY(' + delta + 'px)',
+								'-ms-transform': 'translateZ(0) translateY(' + delta + 'px)',
+								'-o-transform': 'translateZ(0) translateY(' + delta + 'px)',
+								'transform': 'translateZ(0) translateY(' + delta + 'px)',
+							});
+						} else {
+							faqsCategoriesContainer.removeClass('is-fixed').css({
+								'left': 0,
+								'top': 0,
+							});
+						}
+					}
+
+					function updateSelectedCategory() {
+						faqsSections.each(function () {
+							var actual = $(this),
+								margin = parseInt($('.faq-title').eq(1).css('marginTop').replace('px', '')),
+								activeCategory = $('.categories a[href="#' + actual.attr('id') + '"]'),
+								topSection = (activeCategory.parent('li').is(':first-child')) ? 0 : Math.round(actual.offset().top);
+
+							if ((topSection - 20 <= $(window).scrollTop()) && (Math.round(actual.offset().top) + actual.height() + margin - 20 > $(window).scrollTop())) {
+								activeCategory.addClass('selected');
+							} else {
+								activeCategory.removeClass('selected');
+							}
+						});
+					}
+				});
+			});
+		</script>
+
+</body>
+
+</html>
