@@ -1,0 +1,172 @@
+.body_p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_p {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.step_p {
+    background-color: #514b9f2f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    border: 2px solid #ffffff;
+    /* Added white border */
+}
+
+.step_pr {
+    background-color: #514b9f2f;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    position: relative;
+    border: 2px solid #1ea5de;
+    /* Added white border */
+}
+
+.content_p {
+    padding: 20px;
+}
+
+.content_p h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.content_p p {
+    margin: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.number_p {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 72px;
+    color: #39ff14;
+    opacity: 0.2;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .container_p {
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .step_p {
+        width: 90%;
+    }
+
+    .step_pr {
+        width: 90%;
+    }
+
+    .content_p {
+        padding: 10px;
+    }
+
+    .content_p h2 {
+        font-size: 20px;
+    }
+
+    .content_p p {
+        font-size: 14px;
+    }
+
+    .number_p {
+        font-size: 48px;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+/* Tablet View */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container_p {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .step_p {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .step_pr {
+        width: 45%;
+        margin: 10px;
+    }
+
+    .content_p {
+        padding: 15px;
+    }
+
+    .content_p h2 {
+        font-size: 22px;
+    }
+
+    .content_p p {
+        font-size: 15px;
+    }
+
+    .number_p {
+        font-size: 60px;
+        top: 15px;
+        right: 15px;
+    }
+}
+
+/* Desktop View */
+@media (min-width: 1025px) {
+    .container_p {
+        gap: 20px;
+    }
+
+    .step_p {
+        width: 300px;
+    }
+
+    .step_pr {
+        width: 300px;
+    }
+
+    .content_p {
+        padding: 20px;
+    }
+
+    .content_p h2 {
+        font-size: 24px;
+    }
+
+    .content_p p {
+        font-size: 16px;
+    }
+
+    .number_p {
+        font-size: 72px;
+        top: 20px;
+        right: 20px;
+    }
+}

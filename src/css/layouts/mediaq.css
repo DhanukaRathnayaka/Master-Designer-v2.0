@@ -1,0 +1,55 @@
+/* Base styles for all devices */
+.scroll-paragraph-mask.is-bg {
+    height: 100%;
+    left: 0;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.scroll-paragraph-mask.is-masking {
+    --size: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.scroll-paragraph-mask.is-masking .line {
+    -webkit-clip-path: inset(0 var(--size) 0 0);
+    clip-path: inset(0 var(--size) 0 0);
+}
+
+/* Small devices (up to 600px) */
+@media (max-width: 600px) {
+    .scroll-paragraph-mask.is-bg {
+        opacity: .3; /* Slightly more opaque for better visibility */
+    }
+
+    .scroll-paragraph-mask.is-masking .line {
+        --size: 80%; /* Adjust size for better fitting on smaller screens */
+    }
+}
+
+/* Medium devices (600px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .scroll-paragraph-mask.is-bg {
+        opacity: .25; /* Adjust opacity */
+    }
+
+    .scroll-paragraph-mask.is-masking .line {
+        --size: 90%; /* Adjust size for better fitting on medium screens */
+    }
+}
+
+/* Large devices (1024px and up) */
+@media (min-width: 1025px) {
+    .scroll-paragraph-mask.is-bg {
+        opacity: .2; /* Original opacity for larger screens */
+    }
+
+    .scroll-paragraph-mask.is-masking .line {
+        --size: 100%; /* Full size for larger screens */
+    }
+}
+

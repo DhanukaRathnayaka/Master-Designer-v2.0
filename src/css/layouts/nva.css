@@ -1,0 +1,114 @@
+/* nva.css */
+
+.navbar {
+    display: none; /* Hide navbar by default */
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(30px);; /* Dark blue background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    position: relative;
+}
+
+.header_logo {
+    max-width: 100px; /* Adjust logo width */
+    margin-right: 20px; /* Add margin to the right of the logo */
+}
+
+.header_logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-links {
+    display: none; /* Hide links by default */
+    flex-direction: column; /* Stack links vertically */
+    position: absolute; /* Position links absolutely */
+    top: 100%; /* Align links below the navbar */
+    right: 0; /* Position links on the right side */
+    backdrop-filter: blur(30px); /* Dark blue background */
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: -10px;
+    box-shadow: 0 2px 5px rgba(79, 77, 77, 0.2); /* Shadow effect */
+}
+
+.nav-links.active {
+    display: flex; /* Show links when active */
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+    font-size: 18px; /* Larger font size */
+}
+
+.nav-links a:hover {
+    color: #2188b1; /* Yellow on hover */
+}
+
+.menu-toggle {
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 1; /* Set folding button below logo */
+    position: absolute;
+    top: 50%;
+    right: 20px; /* Position folding button on the right side */
+    transform: translateY(-50%);
+    backdrop-filter: blur(30px);
+}
+
+.menu-toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-toggle.active div:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+    opacity: 100000%;
+}
+
+.menu-toggle.active div:nth-child(2) {
+    opacity: 100000%;
+    backdrop-filter: blur(30px);
+}
+
+.menu-toggle.active div:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+    opacity: 100000%;
+    backdrop-filter: blur(30px);
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: flex;
+        backdrop-filter: blur(30px); /* Display menu toggle button on mobile devices */
+    }
+
+    .nav-links {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        backdrop-filter: blur(30px);
+    }
+
+    .nav-links a {
+        backdrop-filter: blur(30px);
+        padding: 10px 0;
+        border-bottom: 1px solid rgba(33, 23, 84, 0.755);
+        font-size: 17px;
+    }
+
+    .nav-links a:last-child {
+        border-bottom: none;
+        backdrop-filter: blur(30px);
+    }
+}

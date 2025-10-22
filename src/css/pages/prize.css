@@ -1,0 +1,95 @@
+
+.container_pr {
+    text-align: center;
+    margin-top: auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.prizes_pr {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.prize_pr {
+    background-color: #3740c518;
+    padding: 20px;
+    border-radius: 20px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.733);
+}
+
+.prize_pr img {
+    max-width: 50%;
+    height: auto;
+}
+
+.position_pr {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.amount_pr {
+    font-size: 1.5em;
+    color: #eee784d5;
+}
+
+.custom-hr {
+    border: 0.5px dotted;
+    background: #ffffffd5; /* Change this color to your desired HR color */
+    margin: 10px auto; /* Center the hr element */
+    width: 120px;
+    display: block; /* Ensure hr is treated as a block-level element */
+}
+
+/* Media Queries */
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .prizes_pr {
+        gap: 40px;
+    }
+    .prize_pr {
+        width: 230px;
+        height: min-content;
+    }
+    .position_pr {
+        font-size: 1.5em;
+    }
+    .amount_pr {
+        font-size: 2em;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .prizes_pr {
+        gap: 30px;
+    }
+    .prize_pr {
+        width: 150px;
+    }
+    .position_pr {
+        font-size: 1.3em;
+    }
+    .amount_pr {
+        font-size: 1.7em;
+    }
+}
+
+/* Small screens */
+@media (max-width: 767px) {
+    .prizes_pr {
+        flex-direction: column;
+        align-items: center;
+    }
+    .prize_pr {
+        width: 75%;
+        margin-bottom: 20px;
+    }
+}
